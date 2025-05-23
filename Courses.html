@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="myscript.js"></script>
+    <title>Document</title>
+    <style>
+        div{
+            margin-top: 100px;
+        }
+        body{
+            background-color: beige;
+            font-family: Arial, sans-serif; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table align="center" border="1">
+   <tr align="center" style="color: rgb(72, 63, 52);">
+    <th width="100">Course_Id</th>
+     <th width="150">Course_Name</th>
+      <th width="100">Trainer</th>
+      <th width="200">Duration in weeks</th>
+   </tr>
+   </div>
+   
+
+   <tbody align="center" id="coursetable"></tbody>
+   </table> 
+
+   <script type="text/javascript">
+    window.onload=function(){
+        showCourses();
+
+    };
+
+   </script>
+</body>
+</html>
