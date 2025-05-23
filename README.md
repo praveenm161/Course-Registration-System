@@ -1,1 +1,1 @@
-# Course-Registration-System - praeen
+# Course-Registration-System - praveen
